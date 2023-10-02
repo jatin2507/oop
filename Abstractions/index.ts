@@ -5,27 +5,27 @@ abstraction is often achieved through the use of modules and functions that hide
 
 
 class Rectangle {
-  private length: number;
+  private len: number;
   private width: number;
 
-  constructor(length: number, width: number) {
-    this.length = length;
+  constructor(len: number, width: number) {
+    this.len = len;
     this.width = width;
   }
 
   // Abstraction for calculating the area
   calculateArea(): number {
-    return this.length * this.width;
+    return this.len * this.width;
   }
 
   // Abstraction for calculating the perimeter
   calculatePerimeter(): number {
-    return 2 * (this.length + this.width);
+    return 2 * (this.len + this.width);
   }
 
-  // Getter for length
-  getLength(): number {
-    return this.length;
+  // Getter for len
+  getlen(): number {
+    return this.len;
   }
 
   // Getter for width
@@ -37,7 +37,7 @@ class Rectangle {
 const myRectangle = new Rectangle(5, 10);
 
 // Using the abstraction to get the dimensions
-console.log("Length:", myRectangle.getLength());
+console.log("len:", myRectangle.getlen());
 console.log("Width:", myRectangle.getWidth());
 
 // Using the abstraction to calculate the area and perimeter
