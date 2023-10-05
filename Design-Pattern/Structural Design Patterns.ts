@@ -51,6 +51,7 @@ console.log(MostHabitantsInMillions()); // 8.9
 `The Decorator pattern lets you attach new behaviors to objects by placing them inside wrapper objects that contain the behaviors. If you're somewhat familiar with React and higher order components (HOC) this kind of approach probably rings a bell for you.
 Technically, components in React functions, not objects. But if we think about how React Context or Memo we can see that we're passing a component as a child to this HOC, and thanks to that this child component is able to access certain features.`;
 `is one of type of encupsulation`;
+`HOC stand For higher order function`;
 
 `Facade Pattern`;
 `Facade Pattern
@@ -62,5 +63,3 @@ A simple example could be JavaScript's map, sort, reduce and filter functions, w
 `The Proxy pattern provides a surrogate or placeholder object for another object and controls access to this other object.`;
 `The Proxy pattern provides a substitute or placeholder for another object. The idea is to control access to the original object, performing some kind of action before or after the request gets to the actual original object.
 Middlewares are nothing more than pieces of code we can make execute before, in the middle, or after any request reaches our endpoints.`;
-
-
